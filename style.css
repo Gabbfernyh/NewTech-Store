@@ -65,7 +65,7 @@ header nav ul li a:hover {
 header nav ul li::after {
     content: "";
     position: absolute;
-    width: 40px;
+    width: 0;
     height: 2px;
     background-color: #00f7ff;
     bottom: 0;
