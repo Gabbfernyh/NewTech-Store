@@ -9,7 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/alert.css">
     <title>NewTech Store</title>
 
 </head>
@@ -38,7 +39,7 @@
         <div class="list">
             <div class="item active">
                 <div class="product-image">
-                    <img src="./img/apple-watch.png" alt="Apple-Watch">
+                    <img src="src/img/apple-watch.png" alt="Apple-Watch">
                 </div>
                 <div class="content">
                     <p class="product-tag">Novo lançamento</p>
@@ -53,7 +54,7 @@
             </div>
             <div class="item">
                 <div class="product-image">
-                    <img src="./img/air-pods.png" alt="Air Pods Max">
+                    <img src="src/img/air-pods.png" alt="Air Pods Max">
                 </div>
                 <div class="content">
                     <p class="product-tag">Som Premium</p>
@@ -68,7 +69,7 @@
             </div>
             <div class="item">
                 <div class="product-image">
-                    <img src="./img/vision-pro.png" alt="Vision Pro">
+                    <img src="src/img/vision-pro.png" alt="Vision Pro">
                 </div>
                 <div class="content">
                     <p class="product-tag">Alta Performance</p>
@@ -122,13 +123,13 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2023 NewTech Store. Todos os direitos reservados.</p>
-            <p>Desenvolvido por <a href="https://github.com/SeuUsuario">Seu Nome</a></p>
-        </div>
-    </footer>
-    <script src="script.js"></script>
+    <script src="src/js/script.js"></script>
+    <script src="src/js/alert.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            showWelcomeAlert('Bem-vindo à NEW-Tech Stores! Aproveite nossa coleção exclusiva de produtos eletrônicos. <br><span class="warning-text">Lembre-se de que este é um site fictício para fins educacionais e possível freelancing, e de que ainda esta em adaptações. Então interaja com tudo, para mais informações entre em contato.</span>');
+        });
+    </script>
 </body>
 
 </html>
